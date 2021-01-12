@@ -11,7 +11,7 @@ URL="http://www.cgil.it/link/"
 #How much recursion do we want? (wget defaults to 5. A lower value may be used for testing or speed.)
 LEVEL=3
 
-wget --recursive --reject jpg,png,pdf,gif --level=$LEVEL $URL
+wget --recursive --reject jpg,png,pdf,gif,JPG,PNG,PDF,GIF --level=$LEVEL $URL
 
 #Important! If we re-run our script, we want to make sure we're not infinitely finding addresses that have already been collected.
 rm *.txt
