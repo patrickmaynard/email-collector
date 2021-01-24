@@ -5,8 +5,7 @@
 #That's not a good thing if I'm on deadline. So this script speeds things up a bit.
 
 #Which page should we start at?
-#TODO: Set this up to use an argument instead.
-URL="http://www.cgil.it/link/"
+URL=$1
 
 #How much recursion do we want? (wget defaults to 5. A lower value may be used for testing or speed.)
 LEVEL=3
