@@ -9,6 +9,8 @@ chmod +x collect-and-clean.sh
 
 Use this sparingly in your reporting, or you'll be labeled a spammer! This is most useful for finding email addresses on websites that don't necessarily make them easy to find. Once you find an address, search for it on Google, and find out who it belongs to. Then contact **at most** a few for the most useful result emails, avoiding the rest.
 
+Oh, and remember to empty out the directory holding the downloaded pages when you're done, or you'll quickly fill up a lot of your storage space. 
+
 ### Dependencies
 
 This script requires that you have `grep` `wget` and `php` on your machine. If any of those commands are missing, the script will not work. The script also assumes a POSIX-compliant command line environment. 
