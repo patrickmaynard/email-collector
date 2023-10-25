@@ -15,4 +15,4 @@ This script requires that you have `grep` `wget` and `php` on your machine. If a
 
 ### A note on emails
 
-If you're an intern or young journalist on deadline, and you have a choice between using this script and making a phone call or knocking on a door, choose the door first, then the phone call, and only as a last resort, this script. Emails are always slower, and you'll get far better results talking with a source in person or over the phone. It's a little outside of current social norms, but it's really not that scary! And it gets easier -- I promise!
+If you're an intern or young journalist on deadline, and you have a choice between using this script and making a phone call or knocking on a door, choose the door first, then the phone call, and only as a last resort, this script. Emails are always slower, and you'll get far better results talking with a source in person or over the phone. It's a little outside of current social norms to call someone unannounced, but your source will usually appreciate that you're on deadline and trying to give them a voice, and it's really not that scary! And it gets easier -- I promise!
