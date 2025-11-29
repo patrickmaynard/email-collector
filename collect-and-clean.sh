@@ -13,7 +13,7 @@ LEVEL=3
 #How many kilobytes per second should we allow wget to download? This is useful if you're getting a lot of HTTP 429 responses.
 LIMIT=50k
 
-wget --recursive --reject jpg,png,pdf,gif,eot,svg,woff,ico,JPG,PNG,PDF,GIF,EOT,SVG,WOFF,ICO --limit-rate=$LIMIT --level=$LEVEL $URL
+wget --recursive --reject jpg,png,pdf,gif,eot,svg,woff,ico,ttf,JPG,PNG,PDF,GIF,EOT,SVG,WOFF,ICO,TTF --limit-rate=$LIMIT --level=$LEVEL $URL
 
 #Important! If we re-run our script, we want to make sure we're not infinitely finding addresses that have already been collected.
 rm *.txt
